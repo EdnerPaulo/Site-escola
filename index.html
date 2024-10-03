@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reencontro de Ex-Alunos - Escola Estadual Vereador Antonio de Ré</title>
+    <link rel="stylesheet" href="css/style.css"> <!-- Estilo CSS externo -->
+    <script src="js/javascript.js"></script>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0000;
+    color: rgb(15, 15, 15);
+    }
+     </style>
+</head>
+<body>
+
+    <!-- Cabeçalho / Menu de Navegação -->
+    <header>
+        <h1>Reencontro de Ex-Alunos</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#como-e-a-escola">Como é a Escola Hoje</a></li>
+                <li><a href="#memorias">Memórias dos Alunos</a></li>
+                <li><a href="#faleconosco">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Home -->
+    <section id="home">
+        <div class="banner">
+            <h2 style="color: rgb(150, 78, 10)">Bem-vindo ao Reencontro dos Ex-Alunos da Escola Estadual Vereador Antonio de Ré</h2>
+            <p>Junte-se a nós para celebrar as memórias e compartilhar experiências da nossa querida escola!</p>
+            <a href="#memorias" class="">Envie sua foto ou mensagem</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2  style="color: rgb(235, 222, 39)">Sobre a Escola</h2>
+        <p>A Escola Estadual Vereador Antonio de Ré foi criada com o objetivo de promover uma educação de qualidade para os jovens de Guarulhos. Fundada em [ano de fundação], a escola se tornou um marco na comunidade, oferecendo ensino de excelência e formação cidadã para várias gerações.</p>
+        <p>Ao longo dos anos, a escola passou por diversas transformações, sempre buscando melhorar sua infraestrutura e currículo, mantendo seu compromisso com a educação pública.</p>
+        <img src="img/var.jpg" alt="Imagem antiga da escola" style="width: 45%; height: 45%;">
+        <img src="img/portao.jpg" alt="Imagem Nova da escola" style="width: 45%; height: 45%;">
+    </section>
+
+    <!-- Seção Como é a Escola Hoje -->
+    <section id="como-e-a-escola">
+        <h2 style="color: rgb(224, 11, 11)">Como é a Escola Hoje</h2>
+        <p>A escola passou por uma série de reformas e melhorias para atender às necessidades atuais dos alunos. Modernizamos a biblioteca, reformamos as salas de aula e construímos uma nova quadra poliesportiva para promover ainda mais o esporte e a educação física.</p>
+        <div class="galeria">
+            <img src="img/VAR-muro.jpeg" alt="Parredes renovadas" style="width: 30%; margin: 10px;">
+            <img src="img/var-fachada.jpeg" alt="Visão panoramica moderna" style="width: 30%; margin: 10px;">
+            <img src="img/saida-quadra.jpg" alt="Saida para nova quadra poliesportiva" style="width: 30%; margin: 10px;">
+        </div>
+    </section>
+
+    <!-- Seção Memórias dos Alunos -->
+    <section id="memorias">
+        <h2  style="color: rgb(58, 19, 233)">Memórias dos Alunos</h2>
+        <p>Aqui, você pode compartilhar suas melhores lembranças da escola. Envie suas fotos antigas ou deixe uma mensagem sobre seu tempo como aluno da Escola Estadual Vereador Antonio de Ré.</p>
+        <form>
+            <label for="foto">Envie sua foto antiga:</label><br>
+            <input type="file" name="foto" id="foto"><br>
+            <label for="mensagem">Deixe uma mensagem:</label><br>
+            <textarea name="mensagem" id="mensagem" rows="5" cols="50"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Seção Fale Conosco -->
+    <section id="faleconosco">
+        <h2 style="color: rgb(10, 221, 74)">Fale Conosco</h2>
+        <p>Se tiver dúvidas ou quiser mais informações sobre o reencontro dos ex-alunos, entre em contato conosco usando o formulário abaixo:</p>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="50"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Reencontro dos Ex-Alunos da Escola Estadual Vereador Antonio de Ré. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
